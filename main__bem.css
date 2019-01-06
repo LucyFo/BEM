@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Museo Sans Rounded';
+    src: url('assets/fonts/MuseoSansRounded-100.otf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url('assets/images/Group_3_copy.png');
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    padding: 6px 6px 0 0;
+}
+
+.card {
+    position: relative;
+    margin: 110px 65px;
+    width: 686px;
+    height: 391px;
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+    border-radius: 10px;
+    background-color: #111a28;
+    overflow: hidden;
+    font-family: 'Museo Sans Rounded';
+}
+
+.card__logo img {
+    margin: 26px 0 0 20px;
+    width: 65px;
+    height: 33px;
+}
+
+.card__sneakers-photo img {
+    margin: 60px 77px 0 35px;
+    width: 329px;
+    height: 157px;
+    float: left;
+}
+
+.card__page-switcher {
+    position: absolute;
+    top: 350px;
+    left: 180px;
+}
+
+.card__page-switcher img {
+    margin: 3px;
+    width: 9px;
+    height: 10px;
+}
+
+.page-switcher img:hover {
+    border: 1px solid #e1e1e1;
+    border-radius: 50%;
+}
+
+.card__sheakers-title h1 {
+    font-size: 24px;
+    line-height: 26px;
+    color: #e1e1e1;
+}
+
+.description {
+    font-size: 14px;
+    opacity: .54;
+    color: #e1e1e1;
+}
+
+.mark img {
+    /* width: 39px;
+    height: 12px; */
+    margin-top: 23px;
+}
+
+.card__order-form {
+    margin: 24px 0;
+    overflow: hidden;
+}
+
+.card__order-form div {
+    display: inline-block;
+    margin-bottom: 29px;
+}
+
+.card__order-form select {
+    width: 69px;
+    height: 32px;
+    background-color: #202835;
+    color: #e1e1e1;
+    font-family: 'Museo Sans Rounded';
+}
+
+input[type="submit"i] {
+    background-color: #202835;
+    border: none;
+    color: #e1e1e1;
+    font-family: 'Museo Sans Rounded';
+}
+
+button {
+    padding: 11px 51px;
+    border: 1px solid #e1e1e1;
+    box-shadow: none;
+    background-color: #202835;
+}
