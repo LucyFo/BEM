@@ -100,16 +100,11 @@ body * {
     font-family: 'Museo Sans Rounded';
 }
 
-input[type="submit"i] {
-    background-color: #202835;
-    border: none;
-    color: #e1e1e1;
-    font-family: 'Museo Sans Rounded';
-}
-
 button {
     padding: 11px 51px;
     border: 1px solid #e1e1e1;
     box-shadow: none;
     background-color: #202835;
+    color: #e1e1e1;
+    font-family: 'Museo Sans Rounded';
 }
